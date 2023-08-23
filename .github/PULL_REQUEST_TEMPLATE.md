@@ -47,7 +47,6 @@ Please review the following checklist before submitting your pull request to ens
   >
 - [ ] I have reviewed the changes for compliance issues related to relevant frameworks (SOC2, HIPPA, PIPEDA, GDPR). If there's any doubt, I have consulted with QA about the change.
 - [ ] I have informed appropriate parties in case of changed functionality which may require additional training or instructions.
-- [ ] I have informed appropriate parties in case of potential downtime coming from this change.
 
 ### Testing
 
