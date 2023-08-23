@@ -33,8 +33,9 @@ Please review the following checklist before submitting your pull request to ens
   > - Identify potential threats and vulnerabilities introduced by the changes.
   > - Assess the likelihood and potential impact of these threats.
   > - Identify measures to mitigate the identified risks.
-  > Add the review below:
-  >
+  > - Run /security in a comment in this PR to scan for vulnerabilities
+  Add the review below:
+
 - [ ] I have considered the potential impact on performance of my changes.
   > To assess the potential impact on performance, consider the following:
   > - Identify the parts of the system that will be affected by your changes.
@@ -43,8 +44,8 @@ Please review the following checklist before submitting your pull request to ens
   > - If possible, perform a load test or similar to measure the impact.
   > - Consider the trade-offs between the benefits of your changes and the potential performance impact.
   > - If the impact is significant, consider ways to optimize your changes.
-  > Add the review below:
-  >
+  Add the review below:
+  
 - [ ] I have reviewed the changes for compliance issues related to relevant frameworks (SOC2, HIPPA, PIPEDA, GDPR). If there's any doubt, I have consulted with QA about the change.
 - [ ] I have informed appropriate parties in case of changed functionality which may require additional training or instructions.
 

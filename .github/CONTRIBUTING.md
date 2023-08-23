@@ -1,25 +1,15 @@
 # Momentum Health Repo
 
-Welcome to the Momentum Health Repo
+Welcome to the Momentum Health contributing guidelines
 
 ## Table of Contents
 
-- [Architecture](#architecture)
-- [Getting Started](#getting-started)
 - [Code Review Guidelines](#code-review-guidelines)
 - [Documentation Standards](#documentation-standards)
 - [Branching Strategy](#branching-strategy)
 - [Continuous Integration and Continuous Deployment](#continuous-integration-and-continuous-deployment)
 - [Change Request Process](#change-request-process)
 - [License](#license)
-
-## Architecture
-
-[Describe here how this repo is related to other repos]
-
-## Getting Started
-
-To set up the project, ensure you have the required dependencies installed and follow the instructions provided in the documentation. Familiarize yourself with the project structure, coding standards, and security guidelines to ensure you adhere to our compliance requirements while working on the project.
 
 ## Code Review Guidelines
 
