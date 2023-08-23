@@ -5,7 +5,9 @@ Please write a summary here of the changes made, and which business objective it
 ### Context
 
 Closes #
+
 Version bump: #major/#minor/#patch (append this to the commit message)
+
 Emergency change: Yes/No (review the Emergency Change Process)
 
 ### Additional validation
