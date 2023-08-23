@@ -33,7 +33,6 @@ Please review the following checklist before submitting your pull request to ens
   > - Identify potential threats and vulnerabilities introduced by the changes.
   > - Assess the likelihood and potential impact of these threats.
   > - Identify measures to mitigate the identified risks.
-  > - Run /security in a comment in this PR to scan for vulnerabilities
   Add the review below:
 
 - [ ] I have considered the potential impact on performance of my changes.
@@ -54,7 +53,7 @@ Please review the following checklist before submitting your pull request to ens
 - [x] Unit tests have passed.
 - [ ] Integration tests have passed.
 - [ ] End to end test has passed.
-- [ ] Vulnerability scanning has passed.
+- [ ] Vulnerability scanning has passed. (Dependabot & /security in a comment in this PR)
 
 ### Checklist Reviewer
 
