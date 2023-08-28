@@ -20,10 +20,10 @@ Please review the following checklist before submitting your pull request to ens
 
 - [ ] My changes adhere to the coding standards and best practices established in the **Code Review Guidelines**.
 - [ ] I have performed a self-review of my own code.
-- [ ] I have commented my code, particularly in hard-to-understand areas.
+- [ ] I have commented my code particularly in hard-to-understand areas, if applicable.
 - [ ] I have made corresponding changes to the documentation, if applicable.
 - [ ] My changes generate no new warnings or errors.
-- [ ] I have added tests that prove my changes are effective and increase code coverage.
+- [ ] I have added tests that prove my changes are effective and increase code coverage, if applicable.
 - [ ] New and existing unit tests pass locally with my change, coverage is above 75%.
 - [ ] If applicable, I have added new credentials or environment variables to KeyVault or other systems.
 - [ ] I have notified relevant stakeholders of any potential service disruptions or changes in availability when this PR is merged.
