@@ -27,7 +27,7 @@ jobs:
 
   review:
     needs: trigger-check
-    if: needs.deploy-check.outputs.triggered == 'true'
+    if: needs.trigger-check.outputs.triggered == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: xemberi/ai-pr-reviewer@main
