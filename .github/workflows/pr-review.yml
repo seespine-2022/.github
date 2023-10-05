@@ -5,19 +5,29 @@ permissions:
   pull-requests: write
 
 on:
-  pull_request:
-  pull_request_review_comment:
+  issue_comment:
     types: [created]
 
-concurrency:
-  group:
-    ${{ github.repository }}-${{ github.event.number || github.head_ref ||
-    github.sha }}-${{ github.workflow }}-${{ github.event_name ==
-    'pull_request_review_comment' && 'pr_comment' || 'pr' }}
-  cancel-in-progress: ${{ github.event_name != 'pull_request_review_comment' }}
 
 jobs:
+  trigger-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Acknowledge prbot request to commenter
+        id: check
+        uses: khan/pull-request-comment-trigger@master
+        with:
+          trigger: "/prbot"
+          reaction: rocket
+        env:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+      - run: 'echo Found /prbot comment'
+    outputs:
+      triggered: ${{ steps.check.outputs.triggered }}
+
   review:
+    needs: deploy-check
+    if: needs.deploy-check.outputs.triggered == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: xemberi/ai-pr-reviewer@main
