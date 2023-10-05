@@ -26,7 +26,7 @@ jobs:
       triggered: ${{ steps.check.outputs.triggered }}
 
   review:
-    needs: deploy-check
+    needs: trigger-check
     if: needs.deploy-check.outputs.triggered == 'true'
     runs-on: ubuntu-latest
     steps:
