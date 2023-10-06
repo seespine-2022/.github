@@ -8,17 +8,16 @@ on:
   issue_comment:
     types: [created]
 
-
 jobs:
   trigger-check:
     runs-on: ubuntu-latest
     steps:
       - name: Acknowledge prbot request to commenter
         id: check
-        uses: khan/pull-request-comment-trigger@master
+        uses: shanegenschaw/pull-request-comment-trigger@v2.1.0
         with:
-          trigger: "/prbot"
-          reaction: rocket
+          trigger: "/review"
+          reaction: eyes
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
       - run: 'echo Found /prbot comment'
