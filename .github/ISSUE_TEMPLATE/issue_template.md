@@ -30,12 +30,11 @@ assignees: ''
 
 ### Change questionnaire
 <details>
-  <summary>Click to expand the table</summary>
+  <summary>Click to expand the task list</summary>
 
-  | Header 1 | Header 2 | Header 3 |
-  | -------- | -------- | -------- |
-  | Row1 Col1 | Row1 Col2 | Row1 Col3 |
-  | Row2 Col1 | Row2 Col2 | Row2 Col3 |
-  | Row3 Col1 | Row3 Col2 | Row3 Col3 |
+  - [ ] Task 1
+  - [ ] Task 2
+  - [ ] Task 3
+  - [x] Task 4 (completed)
 
 </details>
