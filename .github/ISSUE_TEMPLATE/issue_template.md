@@ -22,6 +22,8 @@ assignees: ''
 
 ### 3. Change description
 *A description of the changes. Describe before and after functionality.*
+> [!NOTE]
+> Place your description here.
 -> Continue to 4
 
 ### 4. Reason for change
@@ -33,7 +35,7 @@ assignees: ''
 -> Continue to 6
 
 ### 6. Change questionnaire
-*Check if any of the statements are true. If true, check the statement and add an explaination.
+*Check if any of the statements are true. If true, check the statement and add an explaination.*
 
 <details>
   <summary>Design change (technology, engineering, performance changes)</summary>
