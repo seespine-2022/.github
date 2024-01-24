@@ -22,8 +22,9 @@ assignees: ''
 
 ### 3. Change description
 *A description of the changes. Describe before and after functionality.*
-> [!NOTE]
+
 > Place your description here.
+
 -> Continue to 4
 
 ### 4. Reason for change
