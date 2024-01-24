@@ -6,6 +6,9 @@ labels: ''
 assignees: ''
 
 ---
+## 0. Are you changing the product that falls under the QMS?
+- [ ] Yes (-> Continue to 1)
+- [ ] No (-> Remove all, but 3, and continue to 3.)
 
 ## 1. What type of change is this? Choose one.
 - [ ] Infrastructure / programming language (-> Schedule meeting with QA)
@@ -18,6 +21,7 @@ assignees: ''
 - [ ] Does this ticket change our [Risk Matrix](https://drive.google.com/file/d/1FU75q1N5YYBL8HDRbQIrOO1lzGUQP8j9/view)? (-> Schedule meeting with QA)
 - [ ] Does this ticket change our intended use? Our intended use is... (-> Schedule meeting with QA)
 - [ ] Is device performance or functionality significantly altered? (-> Schedule meeting with QA)
+
 -> Continue to 3
 
 ## 3. Change description
@@ -75,3 +79,5 @@ PLACE YOUR DESCRIPTION HERE.
   - [ ] E13 – Are there any ‘re-engineering’ or ‘refactoring’ changes?
 
 </details>
+
+-> End.
