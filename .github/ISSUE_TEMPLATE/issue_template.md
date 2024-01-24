@@ -46,6 +46,3 @@ assignees: ''
     ### Reason for change
     *Reasons can include product improvement, costs improvement or customer feedback.*
   </details>
-
-
-https://drive.google.com/file/d/1FU75q1N5YYBL8HDRbQIrOO1lzGUQP8j9/view
