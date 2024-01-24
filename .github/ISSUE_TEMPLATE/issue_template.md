@@ -8,28 +8,33 @@ assignees: ''
 ---
 
 ## What type of change is this?
-<details>
-<summary>- [ ] Infrastructure and/or programming language changes</summary>
-<br>
-Please describe the change in detail here.
-</details>
-<details>
-<summary>- [ ] Verification and validation process changes</summary>
-<br>
-Please describe the change in detail here.
-</details>
-<details>
-<summary>- [ ] Architecture changes</summary>
-<br>
-Please describe the change in detail here.
-</details>
-<details>
-<summary>- [ ] Core algorithm changes</summary>
-<br>
-Please describe the change in detail here.
-</details>
-<details>
-<summary>- [ ] Other changes</summary>
-<br>
-Please describe the change in detail here.
-</details>
+- [ ] Infrastructure and/or programming language changes  
+  <details>
+  <summary>Click to expand</summary>
+  <br>
+  Please describe the change in detail here.
+  </details>
+- [ ] Verification and validation process changes  
+  <details>
+  <summary>Click to expand</summary>
+  <br>
+  Please describe the change in detail here.
+  </details>
+- [ ] Architecture changes  
+  <details>
+  <summary>Click to expand</summary>
+  <br>
+  Please describe the change in detail here.
+  </details>
+- [ ] Core algorithm changes  
+  <details>
+  <summary>Click to expand</summary>
+  <br>
+  Please describe the change in detail here.
+  </details>
+- [ ] Other changes  
+  <details>
+  <summary>Click to expand</summary>
+  <br>
+  Please describe the change in detail here.
+  </details>
