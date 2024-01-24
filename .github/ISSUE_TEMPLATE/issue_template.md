@@ -36,13 +36,15 @@ assignees: ''
   <details>
   <summary>Click to fill out this options</summary>
   <br>
-- [ ] Does this ticket change our [Risk Matrix](https://drive.google.com/file/d/1FU75q1N5YYBL8HDRbQIrOO1lzGUQP8j9/view)?
-- [ ] Does this ticket change our intended use? Our intended use is...
-- [ ] Is device performance or functionality significantly altered?
+    -  Does this ticket change our [Risk Matrix](https://drive.google.com/file/d/1FU75q1N5YYBL8HDRbQIrOO1lzGUQP8j9/view)?
+    -  Does this ticket change our intended use? Our intended use is...
+    -  Is device performance or functionality significantly altered?
 
-### Change description
-*A description of the changes. Describe before and after functionality.*
+    If any of these questions is answered with *yes*, schedule a meeting with QA to follow FRM-03-01. If not, continue.
 
-### Reason for change
-*Reasons can include product improvement, costs improvement or customer feedback.*
+    ### Change description
+    *A description of the changes. Describe before and after functionality.*
+
+    ### Reason for change
+    *Reasons can include product improvement, costs improvement or customer feedback.*
   </details>
