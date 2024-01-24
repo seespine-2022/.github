@@ -7,35 +7,41 @@ assignees: ''
 
 ---
 
-### 1. What type of change is this? Choose one.
+## 1. What type of change is this? Choose one.
 - [ ] Infrastructure / programming language (-> Schedule meeting with QA)
 - [ ] Verification and validation (-> Schedule meeting with QA)
 - [ ] Architecture (-> Schedule meeting with QA)
 - [ ] Core algorithm (-> Schedule meeting with QA)
 - [ ] Other (-> Continue to 2)
 
-### 2. Impact of changes
+## 2. Impact of changes
 - [ ] Does this ticket change our [Risk Matrix](https://drive.google.com/file/d/1FU75q1N5YYBL8HDRbQIrOO1lzGUQP8j9/view)? (-> Schedule meeting with QA)
 - [ ] Does this ticket change our intended use? Our intended use is... (-> Schedule meeting with QA)
 - [ ] Is device performance or functionality significantly altered? (-> Schedule meeting with QA)
 -> Continue to 3
 
-### 3. Change description
+## 3. Change description
 *A description of the changes. Describe before and after functionality.*
 
-> Place your description here.
+PLACE YOUR DESCRIPTION HERE.
 
 -> Continue to 4
 
-### 4. Reason for change
+## 4. Reason for change
 *Reasons can include product improvement, costs improvement or customer feedback.*
+
+PLACE YOUR DESCRIPTION HERE.
+
 -> Continue to 5
 
-### 5. Risk assessment
+## 5. Risk assessment
 *Assess how this might impact risk* LINK TO risk management file.
+
+PLACE YOUR DESCRIPTION HERE.
+
 -> Continue to 6
 
-### 6. Change questionnaire
+## 6. Change questionnaire
 *Check if any of the statements are true. If true, check the statement and add an explaination.*
 
 <details>
