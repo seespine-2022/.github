@@ -81,3 +81,7 @@ PLACE YOUR DESCRIPTION HERE.
 </details>
 
 -> End.
+
+### Approval
+- [ ] Signed off by QA
+- [ ] Signed off by management
