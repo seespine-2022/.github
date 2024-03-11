@@ -3,51 +3,85 @@ name: Issue template
 about: Fill out this issue template to start coding
 title: ''
 labels: ''
-assignees: ''
+assignees: 'xemberi, Joyal_mh, philippemiller-seespine'
 
 ---
-## 0. Are you changing the product that falls under the QMS?
-- [ ] Yes (-> Continue to 1)
-- [ ] No (-> Remove all, but 3, and continue to 3.)
 
-## 1. What type of change is this? Choose one.
-- [ ] Infrastructure / programming language (-> Schedule meeting with QA)
-- [ ] Verification and validation (-> Schedule meeting with QA)
-- [ ] Architecture (-> Schedule meeting with QA)
-- [ ] Core algorithm (-> Schedule meeting with QA)
-- [ ] Other (-> Continue to 2)
+# Change Request and Assessment Form
+**Document No.**:  
+**Revision**: 
 
-## 2. Impact of changes
-- [ ] Does this ticket change our [Risk Matrix](https://drive.google.com/file/d/1FU75q1N5YYBL8HDRbQIrOO1lzGUQP8j9/view)? (-> Schedule meeting with QA)
-- [ ] Does this ticket change our intended use? Our intended use is... (-> Schedule meeting with QA)
-- [ ] Is device performance or functionality significantly altered? (-> Schedule meeting with QA)
+## Section A: Change Request Details (completed by Requestor)
 
--> Continue to 3
-
-## 3. Change description
+### Change description
 *A description of the changes. Describe before and after functionality.*
 
 PLACE YOUR DESCRIPTION HERE.
 
--> Continue to 4
-
-## 4. Reason for change
+### Reason for change
 *Reasons can include product improvement, costs improvement or customer feedback.*
 
 PLACE YOUR DESCRIPTION HERE.
 
--> Continue to 5
+### Impacted parts or docs
+| Impacted Part # | Number | Description | Status (New, Revised, Obsoleted) |
+|-----------------|--------|-------------|----------------------------------|
+|                 |        |             |                                  |
 
-## 5. Risk assessment
-*Assess how this might impact risk* LINK TO risk management file.
+### Departments involved
+- [ ] Supply Chain Management
+- [ ] Sales and Marketing
+- [x] Software R&D
+- [ ] Other: 
+
+## Section B: Change Evaluation (completed by Requestor and QA/RA)
+
+### Risk assessment
+*Assess how this might impact risk* [Risk Matrix](https://drive.google.com/file/d/1FU75q1N5YYBL8HDRbQIrOO1lzGUQP8j9/view).
 
 PLACE YOUR DESCRIPTION HERE.
 
--> Continue to 6
+### Product in the field impacted by the change?
+- [x] Yes
+- [ ] No
 
-## 6. Change questionnaire
+### Design control project determination
+#### Question 1: Are you changing the product that falls under the QMS?
+- [ ] Yes (-> Continue to 2)
+- [ ] No (-> No additional information required)
+
+#### Question 2: What type of change is this? Choose one
+- [ ] Infrastructure / programming language (-> Schedule meeting with QA)
+- [ ] Verification and validation (-> Schedule meeting with QA)
+- [ ] Architecture (-> Schedule meeting with QA)
+- [ ] Core algorithm (-> Schedule meeting with QA)
+- [ ] Other (-> Continue to 3)
+
+#### Question 3: What is the impact of these changes?
+- [ ] Does this ticket change our [Risk Matrix](https://drive.google.com/file/d/1FU75q1N5YYBL8HDRbQIrOO1lzGUQP8j9/view)? (-> Schedule meeting with QA)
+- [ ] Does this ticket change our intended use? Our intended use is... (-> Schedule meeting with QA)
+- [ ] Is device performance or functionality significantly altered? (-> Schedule meeting with QA)
+
+### Change questionnaire
 *Check if any of the statements are true. If true, check the statement and add an explaination.*
 
+<details>
+  <summary>Labeling change</summary>
+
+  - [ ] A1.1 – Is it a change from a device labeled for “single use only” to a device labeled as “reusable”?
+  - [ ] A1.2 – Is it a change from prescription (Rx) to an over-the-counter use (OTC)?
+  - [ ] A1.3 – Is it a change to the device name, or to solely improve readability or clarity?
+  - [ ] A1.4 – Does the change describe a new disease, condition, or patient population that the device is intended in diagnosing, treating, preventing, curing or mitigating?
+  - [ ] A1.5 – Does a risk-based assessment identify any new risks or significantly modified existing risks?
+  - [ ] A2 – Does the change add or delete a contraindication?
+  - [ ] A3 – Is it a change to cautions, warnings or precautions?
+  - [ ] A4 – Could the change affect the directions for use?
+  - [ ] A5 – The legal manufacturer’s name and address on the device labeling stays the same but a new manufacturing facility is added, or production facilities are moved?
+  - [ ] A6 – Change in manufacturer’s name/address, or EU representative or product name, variants or accessories
+  - [ ] A7 – Is the labeling revised based on post-market surveillance?
+
+
+</details>
 <details>
   <summary>Design change (technology, engineering, performance changes)</summary>
 
@@ -57,6 +91,20 @@ PLACE YOUR DESCRIPTION HERE.
   - [ ] B2.2 – Does a risk assessment identify any new or significantly modified risks?
   - [ ] B2.3 – Is clinical data necessary?
   - [ ] B2.4 – Were any unexpected issues encountered with Verification and/or Validation activities that could affect safety & effectiveness of the device?
+
+</details>
+<details>
+  <summary>Quality system, administrative or manufacturing change</summary>
+
+  - [ ] D1 – Post Market Surveillance produces a need for a change. Consider product recalls, field actions, CAPAs, critical supplier issues, etc.
+  - [ ] D2 – Change in product portfolio, adding a product line, changing a product to cover additional indications?r accessories, patient/user interface/environmental specifications?
+  - [ ] D3 – Changing a critical supplier or their location?
+  - [ ] D4 – Change in compliance to standards/directives?
+  - [ ] D5 – Does risk assessment identify any new or significantly modified risks?
+  - [ ] D6 – Change to process validation?
+  - [ ] D7 - New quality certificates issued?
+  - [ ] D8 - Changed/new quality management representative?
+  - [ ] D9 - Is there a significant change in the QMS structure or organizational structure?
 
 </details>
 <details>
@@ -80,7 +128,12 @@ PLACE YOUR DESCRIPTION HERE.
 
 </details>
 
--> End.
+## Section C: Regulatory Assessment (completed by Regulatory Affairs)
+
+## Section D: Change Control Board Review
+
+- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
+
 
 ### Approval
 - [ ] Signed off by QA
