@@ -6,6 +6,10 @@ labels: ''
 assignees: 'xemberi, Joyal_mh, philippemiller-seespine'
 
 ---
+
+*Name*: <!---QMSTag:Name:Start--->REPLACE THIS VALUE<!---QMSTag:Name:End--->
+
+<!---QMSTag:DesignControl:Start--->
 ## 0. Are you changing the product that falls under the QMS?
 - [ ] Yes (-> Continue to 1)
 - [ ] No (-> Remove all, but 3, and continue to 3.)
@@ -21,33 +25,34 @@ assignees: 'xemberi, Joyal_mh, philippemiller-seespine'
 - [ ] Does this ticket change our [Risk Matrix](https://drive.google.com/file/d/1FU75q1N5YYBL8HDRbQIrOO1lzGUQP8j9/view)? (-> Schedule meeting with QA)
 - [ ] Does this ticket change our intended use? Our intended use is... (-> Schedule meeting with QA)
 - [ ] Is device performance or functionality significantly altered? (-> Schedule meeting with QA)
+<!---QMSTag:DesignControl:End--->
 
 -> Continue to 3
 
 ## 3. Change description
 *A description of the changes. Describe before and after functionality.*
 
-PLACE YOUR DESCRIPTION HERE.
+<!---QMSTag:Change:Start--->PLACE YOUR DESCRIPTION HERE.<!---QMSTag:Change:End--->
 
 -> Continue to 4
 
 ## 4. Reason for change
 *Reasons can include product improvement, costs improvement or customer feedback.*
 
-PLACE YOUR DESCRIPTION HERE.
+<!---QMSTag:Reason:Start--->PLACE YOUR DESCRIPTION HERE.<!---QMSTag:Reason:End--->
 
 -> Continue to 5
 
 ## 5. Risk assessment
 *Assess how this might [impact risk](https://drive.google.com/file/d/1FU75q1N5YYBL8HDRbQIrOO1lzGUQP8j9/view).*
 
-PLACE YOUR DESCRIPTION HERE.
+<!---QMSTag:Risk:Start--->PLACE YOUR DESCRIPTION HERE.<!---QMSTag:Risk:End--->
 
 -> Continue to 6
 
 ## 6. Change questionnaire
 *Check if any of the statements are true. If true, check the statement and add an explaination.*
-
+<!---QMSTag:Questionnaire:Start--->
 <details>
   <summary>Design change (technology, engineering, performance changes)</summary>
 
@@ -79,9 +84,12 @@ PLACE YOUR DESCRIPTION HERE.
   - [ ] E13 – Are there any ‘re-engineering’ or ‘refactoring’ changes?
 
 </details>
+<!---QMSTag:Questionnaire:End--->
 
 -> End.
 
 ### Approval
+<!---QMSTag:Approval:Start--->
 - [ ] Signed off by QA
 - [ ] Signed off by management
+<!---QMSTag:Approval:End--->
