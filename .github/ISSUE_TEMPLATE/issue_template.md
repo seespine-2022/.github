@@ -3,7 +3,7 @@ name: Issue template
 about: Fill out this issue template to start coding
 title: ''
 labels: ''
-assignees: 'xemberi, Joyal_mh, philippemiller-seespine'
+assignees: 'xemberi, Joyal-mh, philippemiller-seespine'
 
 ---
 
@@ -51,7 +51,7 @@ assignees: 'xemberi, Joyal_mh, philippemiller-seespine'
 -> Continue to 6
 
 ## 6. Change questionnaire
-*Check if any of the statements are true. If true, check the statement and add an explaination.*
+*Check if any of the statements are true. If true, check the statement and add an explanation.*
 <!---QMSTag:Questionnaire:Start--->
 <details>
   <summary>Design change (technology, engineering, performance changes)</summary>
