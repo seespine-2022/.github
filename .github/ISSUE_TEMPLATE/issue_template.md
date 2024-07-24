@@ -28,6 +28,10 @@ REPLACE THIS VALUE
 - [ ] Does this ticket change our [Risk Matrix](https://drive.google.com/file/d/1FU75q1N5YYBL8HDRbQIrOO1lzGUQP8j9/view)? (-> Schedule meeting with QA)
 - [ ] Does this ticket change our intended use? Our intended use is... (-> Schedule meeting with QA)
 - [ ] Is device performance or functionality significantly altered? (-> Schedule meeting with QA)
+
+## 3. Bug
+- [ ] Is this ticket related to a bug? If so, fill out this form: https://docs.google.com/forms/d/e/1FAIpQLSejUDfQcgvI8bwqxMXFAg9nQalUNxVHpnsOKQ-YQHTNiarBbQ/viewform?usp=sharing.
+
 <!---QMSTag:DesignControl:End--->
 
 -> Continue to 3
