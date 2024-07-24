@@ -7,7 +7,10 @@ assignees: 'xemberi, Joyal-mh, philippemiller-seespine'
 
 ---
 
-*Name*: <!---QMSTag:Name:Start--->REPLACE THIS VALUE<!---QMSTag:Name:End--->
+*Name*: 
+<!---QMSTag:Name:Start--->
+REPLACE THIS VALUE
+<!---QMSTag:Name:End--->
 
 <!---QMSTag:DesignControl:Start--->
 ## 0. Are you changing the product that falls under the QMS?
@@ -32,21 +35,27 @@ assignees: 'xemberi, Joyal-mh, philippemiller-seespine'
 ## 3. Change description
 *A description of the changes. Describe before and after functionality.*
 
-<!---QMSTag:Change:Start--->PLACE YOUR DESCRIPTION HERE.<!---QMSTag:Change:End--->
+<!---QMSTag:Change:Start--->
+PLACE YOUR DESCRIPTION HERE.
+<!---QMSTag:Change:End--->
 
 -> Continue to 4
 
 ## 4. Reason for change
 *Reasons can include product improvement, costs improvement or customer feedback.*
 
-<!---QMSTag:Reason:Start--->PLACE YOUR DESCRIPTION HERE.<!---QMSTag:Reason:End--->
+<!---QMSTag:Reason:Start--->
+PLACE YOUR DESCRIPTION HERE.
+<!---QMSTag:Reason:End--->
 
 -> Continue to 5
 
 ## 5. Risk assessment
-*Assess how this might [impact risk](https://drive.google.com/file/d/1FU75q1N5YYBL8HDRbQIrOO1lzGUQP8j9/view).*
+*Assess how this might [impact risk](https://docs.google.com/spreadsheets/d/1EZwVVom88XWk9CLskjBhFbn1-BgbvTak/edit#gid=1622974018).*
 
-<!---QMSTag:Risk:Start--->PLACE YOUR DESCRIPTION HERE.<!---QMSTag:Risk:End--->
+<!---QMSTag:Risk:Start--->
+PLACE YOUR DESCRIPTION HERE.
+<!---QMSTag:Risk:End--->
 
 -> Continue to 6
 
