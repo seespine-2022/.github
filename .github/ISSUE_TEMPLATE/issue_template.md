@@ -37,7 +37,7 @@ assignees: 'xemberi, rama-momentum, philippemiller-seespine'
 - [ ] Yes
 
 ## 2.4. Design impact
-*Does this change impact the Design Traceability Matrix or Risk Controls?
+*Does this change impact the [Design Traceability Matrix](https://github.com/seespine-2022/qms-docs/tree/main/design/design-matrix) or [Risk Controls](https://github.com/seespine-2022/qms-docs/tree/main/risk)?
 - [ ] Yes
 
 ## 2.5. Design traceability
