@@ -22,10 +22,8 @@ If management has given approval to move forward with this proposal, confirm tha
 - [ ] Lead Developer: [Name], [Date Change Request Proposal Initiated]
 - [ ] Management Approval: [Name], [Date Change Request Proposal Approved]
 
-Does this change impact the API/mobile app or will it in the future? If you are not sure if it will in the future, it is a no.
-
 <details>
-<summary>2. Change Request Plan</summary>
+<summary>Does this change impact the API/mobile app or will it in the future? Click if yes. If you are not sure if it will in the future, it is a no.</summary>
 
 # 2. Change Request Plan
 
