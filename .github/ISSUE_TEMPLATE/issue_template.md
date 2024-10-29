@@ -1,3 +1,14 @@
+---
+name: Issue template
+about: Fill out this issue template to start coding
+title: ''
+labels: ''
+assignees: 'xemberi, rama-momentum, philippemiller-seespine'
+
+---
+
+*Name*: REPLACE THIS VALUE
+
 # 1. Change Request Proposal
 
 ## 1.1. Proposal
