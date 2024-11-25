@@ -11,22 +11,26 @@ assignees: 'xemberi, rama-momentum'
 Fill out > management approval > schedule QA/RA meeting (QMS change request).
 
 ## Change classification 
+<!--qms-section:classification-->
 - [ ] Minor change (negligible functionality or enhancement of usability or performance.)
 - [ ] Major change (significant impact on safety, effectiveness, or regulatory status.)
-
+<!--/qms-section:classification-->
 
 ## QMS Scope 
+<!--qms-section:scope-->
 *Provide a more detailed and technical overview of the scope of the proposal. What will and what will not be part of this task? What does it look like in case of UX/UI change?* 
-
+<!--/qms-section:scope-->
 
 ## QMS Source
+<!--qms-section:source-->
 *If there are QMS sources or related documents, link the documents below:*
 
 - Source: 
 - Other related documents:
-
+<!--/qms-section:source-->
 
 ## Mobile app/API impact assessment  
+<!--qms-section:impact-->
  - *Impacts of change on constituent parts (relating to components, dependencies, or different parts of the system). In simpler terms, it's about understanding if changing one thing might break or alter something else.*
 		        
         
@@ -37,7 +41,7 @@ Fill out > management approval > schedule QA/RA meeting (QMS change request).
        
         
  - *Impacts of change on overall design and development process (relating to infrastructure, programming language, verification/validation, architecture, performance/functionality, or core algorithm). It involves thinking about whether the change requires modifications to the underlying structure, coding practices, testing methods, or core functionalities of the product.*
-		 
+<!--/qms-section:impact-->
        
  
 ## Design Traceability Matrix (DTM) Impact 
@@ -50,9 +54,11 @@ Is there a clear thread of traceability for all of the following?
     • Design verification activities confirm outputs meet inputs
     • Design validation activities confirm product meets user needs/intended uses
 
+<!--qms-section:dtm-->
 - [ ] Yes, no updates to DTM required → Continue to "Risk impact"
 - [ ] No, DTM requires update [provide details on how it should be updated] → 
 - [ ] N/A, explain → 
+<!--/qms-section:dtm-->
 
 ## Risk impact 
 Check [Risk Controls](https://github.com/seespine-2022/qms-docs/tree/main/risk):
@@ -62,9 +68,11 @@ Check [Risk Controls](https://github.com/seespine-2022/qms-docs/tree/main/risk):
     • Risk control measures are sufficient
     • No unaddressed risks are present
 
+<!--qms-section:fmea-->
 - [ ] Yes, no updates to FMEA required → Continue to QA Approval
 - [ ] No, FMEAs require updates [provide details on how it should be updated] → 
 - [ ] N/A, explain → 
+<!--/qms-section:fmea-->
 
 ## Approvals 
  - [ ] **Lead Developer:** [Name], [Date Change Request Proposal Initiated]
