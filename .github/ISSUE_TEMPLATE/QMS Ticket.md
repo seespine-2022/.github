@@ -42,7 +42,7 @@ Fill out > management approval > schedule QA/RA meeting (QMS change request).
  
 ## Design Traceability Matrix (DTM) Impact 
 Check [Design Traceability Matrix](https://github.com/seespine-2022/qms-docs/tree/main/design/design-matrix):
-- Is there a clear thread of traceability for all of the following?
+Is there a clear thread of traceability for all of the following?
     • Associated with existing design input
     • Design input is complete, unambiguous, verifiable, and not conflicting
     • Associated with relevant design output
